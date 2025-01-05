@@ -1,0 +1,168 @@
+/* Base Styles */
+.Intro {
+  display: flex;
+  height: 77vh;
+  margin-top: 6rem;
+  align-items: center; /* Ensure vertical alignment */
+  padding: 0 1rem; /* Add padding for smaller screens */
+}
+
+/* Left Side */
+.i-left {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: flex-start; /* Ensure left alignment */
+}
+
+.i-name {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.i-name > :nth-child(1),
+.i-name > :nth-child(2) {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.i-name > :nth-child(1) {
+  color: var(--black);
+}
+
+.i-name > :nth-child(2) {
+  color: var(--orange);
+}
+
+.i-name > :nth-child(3) {
+  font-weight: 100;
+  font-size: 14px;
+  color: var(--gray);
+  margin-top: 10px;
+}
+
+.i-button {
+  width: 6rem;
+  height: 2rem;
+}
+
+.i-icons {
+  margin-top: 3rem;
+  display: flex;
+  gap: 1rem; /* Adjust gap for better spacing */
+}
+
+.i-icons > * {
+  transform: scale(0.5);
+  transition: transform 0.3s ease;
+}
+
+.i-icons > *:hover {
+  cursor: pointer;
+  transform: scale(0.6); /* Slightly enlarge on hover */
+}
+
+/* Right Side */
+.i-right {
+  flex: 1;
+  position: relative;
+}
+
+.i-right > * {
+  position: absolute;
+  z-index: 1;
+}
+
+.i-right > :nth-child(1) {
+  transform: scale(0.69);
+  left: -15%;
+  top: -9%;
+}
+
+.i-right > :nth-child(2) {
+  top: -4.6rem;
+  transform: scale(0.67);
+  left: -3rem;
+}
+
+.i-right > :nth-child(3) {
+  transform: scale(1.4);
+  left: 28%;
+}
+
+.i-right > :nth-child(4) {
+  transform: scale(0.62);
+  top: -19%;
+  left: -24%;
+  border-radius: 50%;
+  padding: 0;
+}
+
+/* Blur Effect */
+.blur {
+  position: absolute;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  background: #edd0ff;
+  filter: blur(72px);
+  z-index: -9;
+  top: -18%;
+  left: 56%;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .Intro {
+    flex-direction: column;
+    gap: 4rem; /* Reduce gap for tablet view */
+    height: auto; /* Allow height to adjust dynamically */
+    padding: 0 2rem;
+  }
+
+  .i-right {
+    transform: scale(0.9); /* Adjust scaling for better fit */
+    left: -2rem;
+  }
+
+  .i-icons {
+    gap: 0.5rem; /* Reduce icon spacing for smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Intro {
+    flex-direction: column;
+    gap: 6rem; /* Increase gap for clarity */
+    height: auto;
+    padding: 0 1rem; /* Add padding for better spacing */
+  }
+
+  .i-right {
+    transform: scale(0.8);
+    left: -3rem;
+  }
+
+  .i-right .blur {
+    display: none; /* Hide blur effect on mobile */
+  }
+
+  .floating-div:nth-of-type(1) {
+    top: -7rem !important; /* Adjust position for floating div */
+  }
+
+  .i-name > :nth-child(1),
+  .i-name > :nth-child(2) {
+    font-size: 2rem; /* Reduce font size for mobile */
+  }
+
+  .i-name > :nth-child(3) {
+    font-size: 12px; /* Adjust text size */
+  }
+
+  .i-icons > * {
+    transform: scale(0.4); /* Further reduce icon size */
+  }
+}
