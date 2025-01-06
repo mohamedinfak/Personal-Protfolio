@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Personal-Protfolio/static/css/main.d8fb7de0.css",
+    "main.js": "/Personal-Protfolio/static/js/main.948fa3c3.js",
+    "static/media/prf1.png": "/Personal-Protfolio/static/media/prf1.ad6db3d37d5d3ba97c74.png",
+    "static/media/tasktrcker.png": "/Personal-Protfolio/static/media/tasktrcker.e36a93d26aeb31bfb1b7.png",
+    "static/media/tourisam.jpg": "/Personal-Protfolio/static/media/tourisam.d8aef324a63a56b3a2ef.jpg",
+    "static/media/portfolio.png": "/Personal-Protfolio/static/media/portfolio.f2967b99fc587ec4ca3f.png",
+    "static/media/e-commerce.png": "/Personal-Protfolio/static/media/e-commerce.cf968ef9fca8b0d60799.png",
+    "static/media/weather app.png": "/Personal-Protfolio/static/media/weather app.7e87c27ca7dc39916f07.png",
+    "static/media/resume.pdf": "/Personal-Protfolio/static/media/resume.ab5a516de6ae2d6a6c02.pdf",
+    "static/media/q.png": "/Personal-Protfolio/static/media/q.5ce919c5beef42112ee1.png",
+    "static/media/cerv.png": "/Personal-Protfolio/static/media/cerv.9d0aed8675b64fc8fcb3.png",
+    "static/media/glassesimoji.png": "/Personal-Protfolio/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
+    "static/media/todo.png": "/Personal-Protfolio/static/media/todo.d104fa0ce7ff10ffad8c.png",
+    "static/media/thumbup.png": "/Personal-Protfolio/static/media/thumbup.e06790ba656f0397cbe5.png",
+    "static/media/humble.png": "/Personal-Protfolio/static/media/humble.c8b32b53675e68978981.png",
+    "static/media/heartemoji.png": "/Personal-Protfolio/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
+    "static/media/wave.png": "/Personal-Protfolio/static/media/wave.fdfef4069ad90f610990.png",
+    "static/media/crown.png": "/Personal-Protfolio/static/media/crown.dbe416beae9b49b842ab.png",
+    "static/media/Vector2.png": "/Personal-Protfolio/static/media/Vector2.28db5bfd58081dd1df1b.png",
+    "static/media/glasses.png": "/Personal-Protfolio/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
+    "index.html": "/Personal-Protfolio/index.html",
+    "main.d8fb7de0.css.map": "/Personal-Protfolio/static/css/main.d8fb7de0.css.map",
+    "main.948fa3c3.js.map": "/Personal-Protfolio/static/js/main.948fa3c3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8fb7de0.css",
+    "static/js/main.948fa3c3.js"
+  ]
+}
